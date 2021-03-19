@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "J6b3nU3cOHc/4N4PibYPHi7dQJTlwPwTT9oI18/Amno5nkP+9m4sBMJc+v3j7N3hoPrLJewWnQ1rwtwPBCDsfw==",
+  "success": true,
+  "projectFilePath": "/Users/shixiaoyong/Projects/ASP.NETCoreWebAPPTraining/ASP.NETCoreWebAPPTraining/ASP.NETCoreWebAPPTraining.csproj",
+  "expectedPackageFiles": [
+    "/Users/shixiaoyong/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
