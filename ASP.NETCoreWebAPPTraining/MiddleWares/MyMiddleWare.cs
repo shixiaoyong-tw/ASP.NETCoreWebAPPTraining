@@ -33,7 +33,7 @@ namespace ASP.NETCoreWebAPPTraining.MiddleWares
                 var bodyText = await new StreamReader(context.Response.Body).ReadToEndAsync();
                 var logMessage = $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}]," +
                                  $"Request TraceID:{context.TraceIdentifier}," +
-                                 $"response body:{bodyText}";
+                                 $"Response body:{bodyText}";
                 _logger.LogInformation(logMessage);
                 newBody.Seek(0, SeekOrigin.Begin);
                 await newBody.CopyToAsync(originalBody);

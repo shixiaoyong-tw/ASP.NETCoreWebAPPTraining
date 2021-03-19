@@ -30,7 +30,7 @@ namespace ASP.NETCoreWebAPPTraining.Filters
                 var requestBodyValue = streamReader.ReadToEnd();
                 requestInfo.Body.Position = 0;
 
-                logMessage += $",request body:{requestBodyValue}";
+                logMessage += $",Request body:{requestBodyValue}";
             }
 
             _logger.LogInformation(logMessage);

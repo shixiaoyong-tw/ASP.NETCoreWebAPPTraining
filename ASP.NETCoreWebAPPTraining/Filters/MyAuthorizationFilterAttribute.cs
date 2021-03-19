@@ -13,7 +13,7 @@ namespace ASP.NETCoreWebAPPTraining.Filters
             if (!isHave)
             {
                 context.HttpContext.Response.StatusCode = 403;
-                context.Result = new JsonResult("authorization fail");
+                context.Result = new JsonResult("Authorization Fail");
             }
         }
     }
