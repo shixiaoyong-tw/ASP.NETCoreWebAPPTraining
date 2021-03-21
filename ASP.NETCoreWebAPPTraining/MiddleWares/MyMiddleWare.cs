@@ -10,7 +10,7 @@ namespace ASP.NETCoreWebAPPTraining.MiddleWares
     {
         private readonly RequestDelegate _next;
         private readonly ILogger _logger;
-
+        
         public MyMiddleWare(RequestDelegate next, ILoggerFactory loggerFactory)
         {
             _next = next;
